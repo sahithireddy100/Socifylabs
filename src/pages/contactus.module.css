@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+    background-image: url('../assets/R.jpg'); 
+}
+.main{
+   width: 500px;
+   max-width: 500px;
+   min-width: auto;
+   
+    padding: 25px 40px 10px 40px;
+    /* background-color: antiquewhite; */
+    box-shadow: 0px 0px 5px rgba(0,0,0.1);
+    gap: 10px;
+    background-color: aliceblue;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    
+}
+h3{
+    color: #01257D;
+    font-family: kalnia;
+    font-weight: 200%;
+    font-size: 30px;
+}
+label {
+    margin-bottom: 5px;
+}
+.details input, textarea{
+    border: none;
+    border-bottom: 2px solid #01257D;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details label{
+    display: flex;
+    align-items: flex-start;
+}
+.bottom{
+    padding-top: 10px;
+}
+.bottom button{
+    cursor: pointer;
+   background-color: #01257D;
+   color: aliceblue;
+   width: 75px;
+   height: 30px;
+}
+.container text{
+    font-weight: 600;
+    font-size: 200%;
+    color:indigo;
+    font-family: cursive;
+}
+
+
+
